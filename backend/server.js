@@ -3,6 +3,7 @@ const chats = require("./data/data");
 const dotenv = require("dotenv");
 
 const app = express();
+dotenv.config();
 
 app.get("/", (req, res) => {
   res.send("Api is running fine");
