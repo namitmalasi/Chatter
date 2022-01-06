@@ -2,7 +2,7 @@ import { Box } from "@chakra-ui/react";
 import ChatBox from "../components/ChatBox";
 import SideDrawer from "../components/miscellaneous/SideDrawer";
 import MyChats from "../components/MyChats";
-import { ChatState } from "../Context/ChatProvider";
+import { ChatState } from "../Context/ChatProvider"; 
 
 const ChatPage = () => {
   const { user } = ChatState();
